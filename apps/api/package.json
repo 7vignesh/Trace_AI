@@ -1,0 +1,13 @@
+{
+  "name": "@traceai/api",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "hono": "latest",
+    "zod": "latest",
+    "@traceai/parser": "workspace:*",
+    "@traceai/ai": "workspace:*"
+  }
+}
