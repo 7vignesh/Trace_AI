@@ -5,9 +5,10 @@
     "dev": "bun --watch src/index.ts"
   },
   "dependencies": {
-    "hono": "latest",
-    "zod": "latest",
+    "@hono/zod-validator": "^0.7.6",
+    "@traceai/ai": "workspace:*",
     "@traceai/parser": "workspace:*",
-    "@traceai/ai": "workspace:*"
+    "hono": "latest",
+    "zod": "latest"
   }
 }
