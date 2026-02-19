@@ -1,6 +1,6 @@
-import { CodeEditor } from "./components/CodeEditor";
-import { ExplanationPanel } from "./components/ExplanationPanel";
-import { Toolbar } from "./components/Toolbar";
+import { CodeEditor } from "./components/codeEditor";
+import { ExplanationPanel } from "./components/explanationpanel";
+import { Toolbar } from "./components/toolbar";
 
 function App() {
   return (
